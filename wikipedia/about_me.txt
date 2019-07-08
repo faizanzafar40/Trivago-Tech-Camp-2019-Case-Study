@@ -1,0 +1,14 @@
+Personal Information:
+
+First Name: Faizan
+Last Name: Zafar
+Email: faizanzafar40@gmail.com
+University: RWTH Aachen University
+Graduation Date: Feb 2021
+Major: Master of Data Science
+Location: Aachen, Germany
+Time zone: Central European Summer Time (Berlin GMT+2)
+Website: https://faizanzafar40.github.io/
+
+Why are you interested in the Tech Camp and what would you like to learn?
+
