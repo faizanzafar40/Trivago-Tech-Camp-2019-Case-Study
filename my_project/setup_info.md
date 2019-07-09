@@ -8,7 +8,7 @@
 
 - You can access each of the files from your browser by modifying the following link with your desired file: [http://localhost/test/Ada_Lovelace.html](http://localhost/test/Ada_Lovelace.html)
 
-- From the `my_project` folder in the main repository, execute the file `main_program.py` to run the application
+- From the main repository, access the _my_project_ folder, then execute the file `main_program.py` to run the application
 
 - Adhering to separation of concerns, I have kept my solution quite clean and precise
 
