@@ -14,7 +14,7 @@ https://techcamp.trivago.com/
         - Display image format, color mode, width and height
     - Extract all text
         - Display frequency of parts of speech in the text
-<br>
+
 
 - For a concise guide on setting up and executing the application, please refer to _my_project/setup_info.md_
 
