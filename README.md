@@ -17,4 +17,3 @@ https://techcamp.trivago.com/
 
 
 - For a concise guide on setting up and executing the application, please refer to _my_project/setup_info.md_
-
