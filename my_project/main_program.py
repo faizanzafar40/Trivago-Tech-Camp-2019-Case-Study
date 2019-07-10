@@ -40,9 +40,9 @@ if __name__ == "__main__":
         print("Option 3. Extract all text and know the frequency of different word categories \n")
         print("Option 0. Exit the App \n")
         
-        user_input_1 = int(input("Type your menu option number and press Enter: "))
+        user_input = int(input("Type your menu option number and press Enter: "))
 
-        if(user_input_1==1):
+        if(user_input == 1):
             
             links = []
             for url in urls:
@@ -58,7 +58,7 @@ if __name__ == "__main__":
             
             continue
 
-        elif(user_input_1==2):
+        elif(user_input == 2):
             
             for url in urls:
                 get_images.download_images(url)
@@ -76,7 +76,7 @@ if __name__ == "__main__":
                         raise IOError
                     
                     except IOError:
-                        print("Sorry, the image file at path", path,a, "seems to be corrupted")    
+                        print("Sorry, the image file at", path,a, "seems to be corrupted :(")    
                     continue
                 
                 else:
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
             continue
 
-        elif(user_input_1==3):
+        elif(user_input == 3):
         
             for url in urls:
                 
@@ -92,7 +92,7 @@ if __name__ == "__main__":
                 url_text = get_word_freq.get_text(url)
                 print(url_text)
                 
-                print("Tags from URL: ", url)
+                print("Word Categories from URL: ", url)
                 tokens = nltk.word_tokenize(url_text)
                 url_text_tags = nltk.pos_tag(tokens)
                 dict_url_text_tags = dict(url_text_tags)
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
             continue
 
-        elif(user_input_1==0):
+        elif(user_input == 0):
 
             print("See you next time!")
             quit()
