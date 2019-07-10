@@ -17,4 +17,4 @@ https://techcamp.trivago.com/
 
 ## Setup Guide
 
-- For a concise guide on setting up and executing the application, please refer to *_my_project/setup_info.md_*
+- For a concise guide on setting up and executing the application, please refer to _*my_project/setup_info.md*_
