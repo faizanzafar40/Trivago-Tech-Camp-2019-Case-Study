@@ -10,7 +10,7 @@
 
 - You can access each of the files from your browser by modifying the following link with your desired file: [http://localhost/test/Ada_Lovelace.html](http://localhost/test/Ada_Lovelace.html)
 
-- From the main repository, access the directory *_my_project_* 
+- From the main repository, access the directory **_my_project_** 
 
 - Execute the file `main_program.py` in the same directory
 
