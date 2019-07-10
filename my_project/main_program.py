@@ -36,8 +36,8 @@ if __name__ == "__main__":
         
         print("<<<A SIMPLE APP FOR EXTRACTING INFORMATION FROM HTML PAGES>>> \n")
         print("Option 1. Extract all links \n")
-        print("Option 2. Extract all images and know more about their attributes \n")
-        print("Option 3. Know the frequency of different word categories \n")
+        print("Option 2. Extract all images and get information about their attributes \n")
+        print("Option 3. Extract all text and know the frequency of different word categories \n")
         print("Option 0. Exit the App \n")
         
         user_input_1 = int(input("Type your menu option number and press Enter: "))
