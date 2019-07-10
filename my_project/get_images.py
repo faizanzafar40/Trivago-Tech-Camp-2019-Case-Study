@@ -16,9 +16,9 @@ def download_images(url):
     
     response = requests.get(url)
     
-    parsed_body = html.fromstring(response.text)
+    html_parse = html.fromstring(response.text)
 
-    images = parsed_body.xpath('//img/@src')  
+    images = html_parse.xpath('//img/@src')  
     if not images:  
         sys.exit("Found No Images")
 
@@ -30,7 +30,7 @@ def download_images(url):
         response = requests.get(url)
         folder = open('extracted_pictures/%s' % url.split('/')[-1], 'wb')
         
-        # Pictures will be downloaded to Folder 'extracted_pictures'
+        # Pictures will be downloaded to directory 'extracted_pictures'
         folder.write(response.content)
         folder.close()
 

@@ -29,11 +29,11 @@ path = 'extracted_pictures'
 if __name__ == "__main__":
 
     i = 1
-    
+    # list of wikipedia pages
     urls = ["http://localhost/test/Ada_Lovelace.html", "http://localhost/test/Alan_Turing.html", "http://localhost/test/Blaise_Pascal.html", "http://localhost/test/Donal_Knuth.html", "http://localhost/test/Grace_Hopper.html", "http://localhost/test/Konrad_Zuse.html", "http://localhost/test/Richard_Stallman.html"]
 
     while(i!=0):
-        
+        # main menu
         print("<<<A SIMPLE APP FOR EXTRACTING INFORMATION FROM HTML PAGES>>> \n")
         print("Option 1. Extract all links \n")
         print("Option 2. Extract all images and get information about their attributes \n")
@@ -68,7 +68,7 @@ if __name__ == "__main__":
                     
                     try:
                         os.chdir(path)
-                        a = os.path.join('./', filename)
+                        a = os.path.join('./', filename) # assign image path
                         image_path = a
                         image = Image.open(a)           
                         get_images.extract_image_attributes(image_path, image)
@@ -89,27 +89,27 @@ if __name__ == "__main__":
             for url in urls:
                 
                 print("Text from URL: ", url)
-                url_text = get_word_freq.get_text(url)
+                url_text = get_word_freq.get_text(url) # extract text
                 print(url_text)
                 
                 print("Word Categories from URL: ", url)
                 tokens = nltk.word_tokenize(url_text)
-                url_text_tags = nltk.pos_tag(tokens)
+                url_text_tags = nltk.pos_tag(tokens) # assign tags
                 dict_url_text_tags = dict(url_text_tags)
                 
                 for key, val in sorted(dict_url_text_tags.items()):
-                    print(key + ":", val)
+                    print(key + ":", val) # print tags with words
                 
                 count_var = Counter(tag for word,tag in url_text_tags)
                 
                 for word in sorted(count_var):
-                    print(word + ":", count_var[word])
+                    print(word + ":", count_var[word]) # print frequency of tags
 
             continue
 
         elif(user_input == 0):
 
-            print("See you next time!")
-            quit()
+            print("See you next time! :)")
+            quit() # exit program
 
     i=i+1
