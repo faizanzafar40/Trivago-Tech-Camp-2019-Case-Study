@@ -9,11 +9,12 @@ https://techcamp.trivago.com/
 - My solution consists of a command line application which is able to perform the following operations on each of the HTML files:<br>
 
     - Extract all the links
-        - Structure the links in a JSON document
+    - Structure the links in a JSON document
     - Download all images to a folder
-        - Display image format, color mode, width and height
+    - Display image format, color mode, width and height
     - Extract all text
-        - Display frequency of parts of speech in the text
+    - Display frequency of different parts of speech in the text
 
+## Setup Guide
 
-- For a concise guide on setting up and executing the application, please refer to _my_project/setup_info.md_
+- For a concise guide on setting up and executing the application, please refer to *_my_project/setup_info.md_*

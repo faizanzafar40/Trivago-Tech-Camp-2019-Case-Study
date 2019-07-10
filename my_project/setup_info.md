@@ -2,13 +2,17 @@
 
 - Download this repository
 
-- For the purpose of deploying my solution to the case study, simply host the HTML files on a local server using xampp  
+- For the setup environment, Visual Studio Code is recommended
 
-- Download and install xampp and place the HTML files in a new directory `C:\xampp\htdocs\test` 
+- Host the HTML files on a local server using xampp  
+
+- Download and install xampp and simply place the HTML files in a new directory `C:\xampp\htdocs\test` 
 
 - You can access each of the files from your browser by modifying the following link with your desired file: [http://localhost/test/Ada_Lovelace.html](http://localhost/test/Ada_Lovelace.html)
 
-- From the main repository, access the _my_project_ folder, then execute the file `main_program.py` to run the application
+- From the main repository, access the directory *_my_project_* 
+
+- Execute the file `main_program.py` in the same directory
 
 - Adhering to separation of concerns, I have kept my solution quite clean and precise
 
